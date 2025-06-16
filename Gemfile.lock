@@ -78,6 +78,8 @@ GEM
       mutex_m
       securerandom (>= 0.3)
       tzinfo (~> 2.0)
+    autoprefixer-rails (10.4.21.0)
+      execjs (~> 2)
     base64 (0.3.0)
     benchmark (0.4.1)
     bigdecimal (3.2.2)
@@ -96,6 +98,7 @@ GEM
     drb (2.2.3)
     erb (5.0.1)
     erubi (1.13.1)
+    execjs (2.10.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
     i18n (1.14.7)
@@ -227,6 +230,9 @@ GEM
       rspec-support (~> 3.13)
     rspec-support (3.13.4)
     securerandom (0.4.1)
+    simple_form (5.3.1)
+      actionpack (>= 5.2)
+      activemodel (>= 5.2)
     sprockets (4.2.2)
       concurrent-ruby (~> 1.0)
       logger
@@ -269,6 +275,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  autoprefixer-rails
   bootsnap
   debug
   importmap-rails
@@ -278,6 +285,7 @@ DEPENDENCIES
   rails (~> 7.1.5, >= 7.1.5.1)
   rails-controller-testing
   rspec-rails
+  simple_form
   sprockets-rails
   stimulus-rails
   turbo-rails
@@ -285,7 +293,7 @@ DEPENDENCIES
   web-console
 
 RUBY VERSION
-   ruby 3.3.5p100
+   ruby 3.2.2p53
 
 BUNDLED WITH
    2.6.8
